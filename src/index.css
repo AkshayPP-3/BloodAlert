@@ -9,16 +9,13 @@ body {
   display: flex;
   flex-direction: column;
 }
-<<<<<<< HEAD
-.hov :hover{
-  color:red;
+
+.hov:hover {
+  color: red;
   transition: 0.2s;
   transform: scale(1.1);
-
 }
-=======
 
->>>>>>> 1f1c72b51f5ec6f202a9d0a1c947eb397bbf4633
 .header {
   display: flex;
   justify-content: space-between;
@@ -42,7 +39,6 @@ nav a {
 }
 
 .home {
-<<<<<<< HEAD
   height: 50vh;
   padding: 6rem 3rem;
   display: flex;
@@ -52,14 +48,6 @@ nav a {
   background: linear-gradient(-45deg, #ff6b6b, #ffe66d, #4ecdc4);
   background-size: 600% 600%;
   animation: bgAnim 12s ease infinite;
-  
-=======
-  padding: 4rem 2rem;
-  background: linear-gradient(-45deg, #ff6b6b, #ffe66d, #4ecdc4);
-  background-size: 600% 600%;
-  animation: bgAnim 12s ease infinite;
-  text-align: center;
->>>>>>> 1f1c72b51f5ec6f202a9d0a1c947eb397bbf4633
   color: white;
 }
 
@@ -75,6 +63,7 @@ nav a {
   border-radius: 8px;
   cursor: pointer;
 }
+
 .home-buttons button:hover {
   transform: scale(1.05);
   transition: transform 0.3s;
