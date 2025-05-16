@@ -9,7 +9,12 @@ body {
   display: flex;
   flex-direction: column;
 }
+.hov :hover{
+  color:red;
+  transition: 0.2s;
+  transform: scale(1.1);
 
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -33,11 +38,16 @@ nav a {
 }
 
 .home {
-  padding: 4rem 2rem;
+  height: 50vh;
+  padding: 6rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(-45deg, #ff6b6b, #ffe66d, #4ecdc4);
   background-size: 600% 600%;
   animation: bgAnim 12s ease infinite;
-  text-align: center;
+  
   color: white;
 }
 
